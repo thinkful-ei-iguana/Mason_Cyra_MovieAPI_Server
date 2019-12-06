@@ -5,12 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server"
+    "start": "node",
+    "dev": "nodemon server"
   },
-  "keywords": [],
-  "engines": {
-    "node": "13.0.1"
-  },
+ 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thinkful-ei-iguana/Moviedex-Mason-Angel.git"
@@ -31,5 +29,9 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.1"
+  },
+  "keywords": [],
+  "engines": {
+    "node": "13.0.1"
   }
 }
