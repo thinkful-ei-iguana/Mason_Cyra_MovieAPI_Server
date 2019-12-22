@@ -7,10 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
     "dev": "nodemon server.js",
-     "predeploy": "npm audit",
-     "deploy": "git push heroku master"
+    "predeploy": "npm audit",
+    "deploy": "git push heroku master"
   },
- 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thinkful-ei-iguana/Moviedex-Mason-Angel.git"
